@@ -1,0 +1,19 @@
+/* style the card */
+.card {
+    width: 18rem;
+    margin-bottom: 20px;
+}
+
+/* remove padding from buttons */
+.card-footer {
+    padding: 0;
+}
+
+/* remove rounded corners from buttons */
+.btn {
+    border-radius: 0 !important;
+}
+
+.one-edge-shadow {
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
