@@ -4,3 +4,7 @@
     /* prevent ngbDropdown to be placed under categories list */
     z-index: 1
 }
+
+#productsCard{
+    margin-top: 28px;
+}

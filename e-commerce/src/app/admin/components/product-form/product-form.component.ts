@@ -23,11 +23,11 @@ export class ProductFormComponent {
         private activatedRoute: ActivatedRoute) {
 
         this.categories$ = categoryService.getCategories();
-
         this.id = this.activatedRoute.snapshot.paramMap.get('id');
         if (this.id) {
             this.productService.getProduct(this.id).valueChanges().pipe(take(1)).subscribe(p => this.product = p);
         }
+        console.log(this.categories$);
     }
 
     save(product) {
